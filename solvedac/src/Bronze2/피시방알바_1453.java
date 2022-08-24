@@ -1,6 +1,7 @@
+package Bronze2;
 import java.util.Scanner;
 
-public class Main {
+public class 피시방알바_1453 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt(); // 손님의 수
@@ -11,7 +12,7 @@ public class Main {
 			int person = sc.nextInt(); // 사람 수 입력받음
 			arr[person]++; // 배열에 사람 수만큼 담고 ++
 			
-			if(arr[person] > 1) // 배열에 담긴 사람 수가 1보다 크면
+			if(arr[person] > 1) // 배열에 담긴 사람 수가 1이면
 				cnt++; // 거절당하는 사람 수 ++
 		}
 		System.out.println(cnt);
